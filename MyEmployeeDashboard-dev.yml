@@ -1,0 +1,15 @@
+app:
+    message: Welcome to Development Employee DashBoard
+
+server:
+    port: 8001
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/manager
+        password: root
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+

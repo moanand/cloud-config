@@ -1,0 +1,14 @@
+app:
+    message: Welcome to Quality Assurance Employee DashBoard
+server:
+    port: 8002
+    
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/manager
+        password: root
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
